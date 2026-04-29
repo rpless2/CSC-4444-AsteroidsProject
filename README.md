@@ -1,13 +1,13 @@
 # PPO Asteroid Agent
 
 ## How to setup and run Environment/Code
-- Clone the repo to IDE of choice ``
-- cd into the proper directory ``
-- Install any dependency if needed ``
+- Clone the repo to IDE of choice `git clone https://github.com/rpless2/CSC-4444-AsteroidsProject`
+- cd into the proper directory `cd PythonProject1`
+- Install any dependency if needed `pip install stable-baselines3 gymnasium pygame numpy torch`
 - Check if you have any trained data labeled asteroids_model_xxx.zip
-- If no data run ``
-- Once you have data run ``
-- If you want to run certain data run ``
+- If no data run `python train.py`
+- Once you have data run `python test.py`
+- If you want to run certain data run `python test.py asteroids_model_xxx` other modify the code in test.py to `model = PPO.load("asteroids_model_xxx")`
 
 ## Overview
 The model for this Asteroid Project is a reinforcement learning (RL) agent that is trained to play Asteroids on its own.
