@@ -18,3 +18,4 @@ The agent will recieve rewards for surviving, destroying asteroids, aiming prope
 The agent will recieve penalties for crashing, shooting randomly, or moving closer to nearby asteroids.
 Over the course of training the model improved it self noticeably by adjusting its behavior in how it moved around and what asteroids it focused on.
 The more data trained versions of the agent survived longer and showed a more effective way to play the game compared to the low data trained agents.
+<img width="998" height="786" alt="Screenshot 2026-04-28 235429" src="https://github.com/user-attachments/assets/e63e3eb9-80c5-4f65-8000-2c0650408472" /><img width="996" height="778" alt="Screenshot 2026-04-28 235515" src="https://github.com/user-attachments/assets/1fcf6ac2-9fd4-4cee-9b9d-e5b50456bffa" />
