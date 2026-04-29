@@ -7,7 +7,7 @@
 - Check if you have any trained data labeled asteroids_model_xxx.zip
 - If no data run `python train.py`
 - Once you have data run `python test.py`
-- If you want to run certain data run `python test.py asteroids_model_xxx` other modify the code in test.py to `model = PPO.load("asteroids_model_xxx")`
+- If you want to run certain data modify the code in test.py to `model = PPO.load("asteroids_model_xxx")`
 
 ## Overview
 The model for this Asteroid Project is a reinforcement learning (RL) agent that is trained to play Asteroids on its own.
